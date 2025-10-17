@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Final-Html</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background-color: #fff;
+      }
+      header {
+        background: #f1f1f1;
+        border-bottom: 2px solid #000000;
+        padding: 10px 0;
+      }
+      header table {
+        width: 90%;
+        margin: auto;
+      }
+      header a {
+        text-decoration: underline;
+        color: #007bff;
+        font-weight: bold;
+        margin: 0 10px;
+      }
+      .hero {
+        width: 100%;
+        background: #fafafa;
+        border-bottom: 2px solid #000000;
+        padding: 40px 0;
+      }
+      .hero table {
+        width: 90%;
+        margin: auto;
+      }
+      .hero h1 {
+        font-size: 28px;
+      }
+      .btn {
+        padding: 8px 14px;
+        border: 2px solid black;
+        background: white;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+      }
+      .section-title {
+        text-align: center;
+        font-size: 26px;
+        font-weight: bold;
+        padding: 20px 0;
+      }
+      .portfolio table {
+        width: 90%;
+        margin: auto;
+        border-spacing: 5px;
+        border-bottom: 2px solid #000000;
+      }
+      .portfolio img {
+        width: 100%;
+        height: 150px;
+      }
+      .team table {
+        width: 50%;
+        margin: auto;
+        border-spacing: 20px;
+        text-align: center;
+      }
+      .team td {
+        border: 1px solid #000;
+        padding: 20px;
+        vertical-align: top;
+      }
+      .service table {
+        width: 90%;
+        margin: auto;
+        border-spacing: 20px;
+        text-align: center;
+        border-bottom: 2px solid #000000;
+      }
+      .service td {
+        border: 1px solid #000;
+        padding: 20px;
+        vertical-align: top;
+      }
+      .service img {
+        width: 50%;
+        height: auto;
+      }
+      .contact {
+        width: 100%;
+        background-image: url(./architecture-2256489_1280.jpg);
+        padding: 40px 0;
+      }
+      .contact table {
+        width: 70%;
+        margin: auto;
+        background: white;
+        border: 2px solid #000;
+        padding: 20px;
+      }
+      input,
+      textarea {
+        width: 90%;
+        padding: 6px;
+        margin: 6px 0;
+        border: 1px solid #000;
+      }
+      footer {
+        text-align: center;
+        background: #333;
+        color: white;
+        padding: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <table>
+        <tr>
+          <td><input type="text" id="text-input" name="text-input" /></td>
+          <td align="right">
+            <a href="#home">Home</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#team">Our Team</a>
+            <a href="#service">Our Service</a>
+            <a href="#contact">Contact Us</a>
+          </td>
+        </tr>
+      </table>
+    </header>
+    <section class="hero" id="home">
+      <table>
+        <tr>
+          <td width="50%">
+            <h1>We help you to solve your<br />Business Problem</h1>
+
+            <a class="btn" href="#Home">Read More</a>
+          </td>
+          <td width="50%">
+            <img
+              src="./architecture-2256489_1280.jpg"
+              alt="Building"
+              width="100%"
+            />
+          </td>
+        </tr>
+      </table>
+    </section>
+    <section class="portfolio" id="portfolio">
+      <div class="section-title">Portfolio</div>
+      <table>
+        <tr>
+          <td><img src="bear-9201157_1280.jpg" alt="" /></td>
+          <td><img src="./city-5772121_1280.jpg" alt="" /></td>
+          <td><img src="./dive-9766599_1280.jpg" alt="" /></td>
+          <td><img src="./tools-1845426_1280.jpg" alt="" /></td>
+        </tr>
+        <tr>
+          <td><img src="bear-9201157_1280.jpg" alt="" /></td>
+          <td><img src="./city-5772121_1280.jpg" alt="" /></td>
+          <td><img src="./dive-9766599_1280.jpg" alt="" /></td>
+          <td><img src="./tools-1845426_1280.jpg" alt="" /></td>
+        </tr>
+      </table>
+    </section>
+
+    <section class="team" id="team">
+      <div class="section-title">Our Team</div>
+      <table>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>
+            <p><b>John Doe</b><br />Frontend Developer</p>
+          </td>
+          <td>
+            <p><b>Jane Doe</b><br />Backend Developer</p>
+          </td>
+          <td>
+            <p><b>Sam Smith</b><br />Designer</p>
+          </td>
+        </tr>
+      </table>
+    </section>
+
+    <section class="service" id="service">
+      <div class="section-title">Our Service</div>
+      <table>
+        <tr>
+          <td>
+            <img src="./iphone.png" alt="" />
+            <h4>Digital Services</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed porro
+              necessitatibus omnis repellendus labore, dicta quas nesciunt!
+              Voluptatibus laudantium explicabo eveniet dolorem magnam quidem
+              reprehenderit dolore, corporis mollitia quae? Illo.
+            </p>
+          </td>
+          <td>
+            <img src="./globe.png" alt="" />
+            <h4>Creative Ideas</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+              harum quidem quae natus eligendi animi sequi at. Beatae, nobis
+              asperiores laboriosam ea odio velit quos veritatis neque ullam
+              voluptate nulla..
+            </p>
+          </td>
+          <td>
+            <img src="./home.png" alt="" />
+            <h4>Interior Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
+              omnis cupiditate culpa quis id necessitatibus tempora alias et
+              vero labore nostrum animi architecto, expedita sit iste tempore
+              voluptas possimus excepturi!.
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src="./lighting-bulb.png" alt="" />
+            <h4>Online Service</h4>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias
+              vel architecto recusandae fuga rem odio assumenda, aliquam
+              placeat. Est repudiandae sunt animi distinctio voluptatum amet
+              quibusdam facere quod temporibus iure.
+            </p>
+          </td>
+          <td>
+            <img src="./multiple-users-silhouette.png" alt="" />
+            <h4>Unlimited Support</h4>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque,
+              voluptas! Facere maiores magnam dignissimos, nostrum vel hic!
+              Assumenda praesentium, cupiditate explicabo sunt sit atque iste.
+              Dignissimos quam laudantium obcaecati consequatur?
+            </p>
+          </td>
+          <td>
+            <img src="./photo-camera-interface-symbol-for-button.png" alt="" />
+            <h4>Photography</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos nihil assumenda aliquid cumque excepturi quam ullam
+              repudiandae provident exercitationem, voluptatum non eaque?
+              Labore, non cum perferendis consequatur doloremque enim officia.
+            </p>
+          </td>
+        </tr>
+      </table>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="section-title">Contact Us</div>
+      <table>
+        <tr>
+          <td>
+            <label>First Name</label><br />
+            <input type="text" /><br />
+            <label>Phone Number</label><br />
+            <input type="number" /><br />
+            <label>Message</label><br />
+            <textarea rows="5"></textarea><br />
+            <button class="btn">Send</button>
+          </td>
+          <td>
+            <label>Last Name</label><br />
+            <input type="text" /><br />
+            <label>Date</label><br />
+            <input type="date" /><br />
+          </td>
+        </tr>
+      </table>
+    </section>
+    <footer>Website created by You Channarith</footer>
+  </body>
+</html>
